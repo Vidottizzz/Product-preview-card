@@ -1,7 +1,46 @@
+* {
+    
+}
+body {
+    background-color: var(--Cream);
+}
+:root {
+    /*Primary*/
 
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    
+    /* Neutral*/
+    
+    --verydarkblue: hsl(212, 21%, 14%);
+    --darkgrayishblue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+.portrait {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 150px;
+}
 p{
-    color:purple;
+    font-size: 14px;
+    font-family:'Montserrat';
+    padding-right:10px;
+    padding-left:20px;
+    padding-top: 5px;
+    font-size: 10px;
+
 }
 img {
     width: 150px;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.bigger-txt {
+    font-size: 16px;
+    font-family:'Fraunces';
 }
