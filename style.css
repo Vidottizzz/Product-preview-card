@@ -1,11 +1,5 @@
 /*Global*/
 
-* {
-    
-}
-body {
-    background-color: var(--Cream);
-}
 :root {
     /*Primary*/
 
@@ -18,36 +12,43 @@ body {
     --darkgrayishblue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
 }
+* {
+    
+}
+body {
+    background-color: var(--Cream);
+}
 p{
     font-size: 14px;
     font-family:'Montserrat';
     font-size: 10px;
 }
-img {
-    width: 175px;
-    border-radius: 4px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+i {
+    padding-top: 11px;
 }
-
 /*Classes*/
+/*
 /*quadro central*/
 .portrait {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: 360px;
+    height: 252px;
     border-radius: 4px;
     margin: auto;
     margin-top: 150px;
 }
 .text {
-    padding-right:38px;
-    padding-left:15px;
+    padding-right: 40px;
     padding-top: 5px;
+    width:270px;
+    padding-left: 20px;
 }
 .title {
     color:var(--darkgrayishblue);
+    font-size: 9px;
+    letter-spacing: 3px;
 }
 .bigger-txt {
     font-size: 16px;
@@ -79,7 +80,7 @@ img {
     font-size: 7px;
     margin-left: 0;
     padding-left: 10px;
-    padding-top: 11px;
+    padding-top: 11.5px;
     text-decoration: line-through;
 }
 .btn {
@@ -97,10 +98,19 @@ img {
 .inner-btn-text {
     margin-left: 8px;
 }
-.btn p {
-    
+.btn:hover {
+    cursor: pointer;
+    background-color: hsl(158, 34%, 40%);
 }
-i {
-    padding-top: 11px;
-    padding-right: ;
+.image-parfum {
+    background-image: url("/images/image-product-desktop.jpg");
+    width: 110%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+    
 }
